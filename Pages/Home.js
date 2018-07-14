@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Image, Text, StyleSheet, TextInput, TouchableOpacity} from 'react-native';
+import Colors from '../Theme/index.js'
 
 class Home extends React.Component {
     render(){
@@ -43,7 +44,7 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   welcomeTitle: {
-    color: "#49A698",
+    color: Colors.primary,
     fontSize: 30
   },
   spacer: {
@@ -62,7 +63,7 @@ const styles = StyleSheet.create({
     height: 50,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#F9F7F7',
+    backgroundColor: Colors.grey,
     width: 170
   },
   input: {
@@ -74,7 +75,7 @@ const styles = StyleSheet.create({
       width: 170,
       alignItems: 'center',
       justifyContent: 'center',
-      backgroundColor: '#6FA298',
+      backgroundColor: Colors.primary,
       borderRadius: 15
 
   }
